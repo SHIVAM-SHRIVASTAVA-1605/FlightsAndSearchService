@@ -3,5 +3,5 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 module.exports= {
-    PORT: process.nextTick.PORT
-}
+    PORT: process.env.PORT
+} 
